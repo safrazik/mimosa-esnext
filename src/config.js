@@ -11,8 +11,5 @@ exports.placeholder = function() {
 
 exports.validate = function( config, validators ) {
   var errors = [];
-    return errors;
-}
-
   return errors;
 };
