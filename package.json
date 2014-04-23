@@ -1,0 +1,40 @@
+{
+  "name": "mimosa-esnext",
+  "version": "1.1.1",
+  "homepage": "https://github.com/mrsafraz/mimosa-esnext",
+  "author": {
+    "name": "Muhammad Safraz Razik"
+  },
+  "description": "A ES6/Typescript compiler (wrapper of google traceur) for Mimosa 2.0+",
+  "contributors": [
+    {
+      "name": "Muhammad Safraz Razik",
+      "email": "mrsafraz@gmail.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mrsafraz/mimosa-esnext"
+  },
+
+  "dependencies": {
+    "traceur": "*",
+  },
+  "keywords": [
+    "mimosa",   
+    "mmodule",
+    "typescript",
+    "es6",
+    "esnext",
+    "compiler",
+    "traceur",
+  ],
+  "license": "MIT",
+  "main": "./src",
+  "engines": {
+    "node": ">=0.10"
+  },
+  "readmeFilename": "README.md",
+  "_id": "mimosa-esnext@1.0",
+  "_from": "mimosa-esnext@"
+}
