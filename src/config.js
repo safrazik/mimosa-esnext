@@ -2,6 +2,14 @@
 
 exports.defaults = function() {
   return {
+    esnext: {
+		extensions: ["js"],
+		containsText: "use esnext",
+		traceurOptions: {
+			modules: "commonjs",
+			experimental: true
+		}	  
+    }
   };
 };
 
