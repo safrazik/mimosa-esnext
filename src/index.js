@@ -17,7 +17,8 @@ var compile = function (mimosaConfig, file, cb) {
 	
 	file.outputFileText = file.inputFileText;
 	
-	if (!hasJsExtension || file.inputFileText.indexOf(mimosaConfig.esnext.containsText) !== -1) {
+	if (!hasJsExtension || !mimosaConfig.esnext.containsText
+		|| file.inputFileText.indexOf(mimosaConfig.esnext.containsText) !== -1) {
 		file.outputFileText = file.outputFileText.replace(mimosaConfig.esnext.containsText, '');
 		var traceurOptions = mimosaConfig.esnext.traceurOptions;
 		traceurOptions.filename = file.outputFileName;
